@@ -2,13 +2,63 @@
 
 # dependencies
 node_modules/
+.babelrc
+.babelrc.json
+.babelrc.js
+.babelrc.cjs
+.babelrc.mjs
+.yarn-integrity
 
 # Expo
 .expo/
+.expo-shared/
 dist/
 web-build/
 
-# Native
+# Metro
+.metro/
+.metro-cache/
+.metro-health-check*
+
+# Build output
+android/app/build/
+ios/Pods/
+ios/build/
+
+# Gradle
+.gradle/
+
+# Xcode
+**/xcuserdata/
+**/xcuserdata/*.xcuserdatad/
+*.xcworkspace/
+*.xcconfig
+*.xcsettings
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcscheme
+*.hmap
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Buck
+buck-out/
+.buckconfig.local
+.buckconfig.macros
+
+# CocoaPods
+Pods/
+Podfile.lock
+.cocoapods/
+
+# React Native
 *.orig.*
 *.jks
 *.p8
@@ -16,20 +66,75 @@ web-build/
 *.key
 *.mobileprovision
 
-# Metro
-.metro-health-check*
+# Misc
+.DS_Store
+.env
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
 
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
 
 # macOS
 .DS_Store
-*.pem
+.AppleDouble
+.LSOverride
 
-# local env files
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Local environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 .env*.local
 
-# typescript
-*.tsbuildinfo
+# Debug
+debug/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
