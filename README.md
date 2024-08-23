@@ -80,15 +80,16 @@ To install and run the NumberWizard app on a simulator, follow these steps:
 
 ### iOS
 
-1. Download the iOS build file from [this link](https://expo.dev/accounts/abbiecheng236/projects/NumberWizard/builds/ea54c933-5040-45c1-bab4-a648c5e12214).
-2. Open Xcode on your Mac.
-3. Choose your preferred iOS simulator.
-4. Drag and drop the downloaded .app file onto the simulator window.
-5. The app should install and launch automatically.
+1. Download the iOS build file from [this link](https://expo.dev/accounts/abbiecheng236/projects/NumberWizard/builds/28969fa6-a092-47ac-a96b-c4140af7e9f1).
+2. Unzip the file.
+3. Open Xcode on your Mac.
+4. Choose your preferred iOS simulator.
+5. Drag and drop the unzipped file onto the simulator window.
+6. The app should install and launch automatically.
 
 ### Android
 
-1. Download the Android build file (.apk) from [this link](https://expo.dev/accounts/abbiecheng236/projects/NumberWizard/builds/1ff1a078-e768-47d3-93e1-b992a1b14a4d).
+1. Download the Android build file (.apk) from [this link](https://expo.dev/accounts/abbiecheng236/projects/NumberWizard/builds/5e293cb0-9b0d-4dbb-8e70-c67b23bc2b6d).
 2. Open Android Studio on your computer.
 3. Start your preferred Android emulator.
 4. Drag and drop the downloaded .apk file onto the emulator window.
